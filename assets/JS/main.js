@@ -18,6 +18,7 @@ $.addEventListener("DOMContentLoaded", () => {
       "http://form-back-gio.herokuapp.com/form",
       data
     );
+    console.log(response);
     alert("Merci pour votre formulaire");
   });
 });
